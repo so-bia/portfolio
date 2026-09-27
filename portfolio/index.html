@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Syeda Sobia Fatima — Portfolio</title>
+  <meta name="description" content="Personal portfolio of Syeda Sobia Fatima, Computer Science Engineer.">
+
+  <!-- Bootstrap 5 for the responsive navbar, grid and form utilities. -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#home">Skip to content</a>
+
+  <!-- Top header: the old sidebar content now lives here. -->
+  <header class="site-header sticky-top">
+    <nav class="navbar navbar-expand-lg" aria-label="Primary navigation">
+      <div class="container-fluid header-inner">
+        <a class="navbar-brand brand" href="#home" aria-label="Syeda Sobia Fatima home">
+          SSF<span class="brand-dot">.</span>
+        </a>
+
+        <div class="brand-role d-none d-lg-block">Computer Science Engineer</div>
+
+        <button
+          class="navbar-toggler"
+          id="menu-toggle"
+          type="button"
+          aria-controls="site-nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="site-nav">
+          <ul class="navbar-nav nav-links ms-lg-auto" id="nav-links">
+            <li class="nav-item"><a class="nav-link active" href="#home">01 <span>Home</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">02 <span>About</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#education">03 <span>Education</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">04 <span>Skills</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#work">05 <span>Work</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">06 <span>Contact</span></a></li>
+          </ul>
+
+          <button id="theme-toggle" class="theme-toggle ms-lg-3" type="button" aria-pressed="false">
+            <span class="theme-toggle-icon" aria-hidden="true">☾</span>
+            <span class="theme-toggle-label">Dark mode</span>
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Responsive banner. The local image avoids another asset dependency. -->
+    <div class="hero-banner" role="img" aria-label="Field of white daisies with yellow centers"></div>
+
+    <!-- HOME -->
+    <section id="home" class="section hero container-fluid">
+      <div class="content-width">
+        <p class="eyebrow">Portfolio</p>
+        <h1>Syeda Sobia<br>Fatima</h1>
+        <p class="hero-role">Computer Science Engineer</p>
+        <p class="hero-summary">
+          Why? Because I love learning things that crack my brain open.
+        </p>
+        <div class="hero-actions d-flex flex-wrap gap-2">
+          <a href="#work" class="btn btn-primary btn-cta">View work</a>
+          <a href="#contact" class="btn btn-outline-dark btn-cta-outline">Contact</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="content-width">
+        <p class="eyebrow">02</p>
+        <h2>About</h2>
+        <div class="row g-4 g-lg-5">
+          <div class="col-lg-8">
+            <p class="about-lead">I am a computer science engineer.</p>
+            <p>
+              I have spent the past 6 academic years understanding how computers work, what technology is, and how
+              things work in this domain.
+            </p>
+            <p>
+              I gained foundational knowledge and expanded it through hands-on practicals and building small things
+              that gave me a sense of achievement &mdash; MVP projects, full-stack projects, while parallelly
+              exploring machine learning.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <div class="facts-card">
+              <table class="quick-facts" aria-label="Quick facts">
+                <tbody>
+                  <tr><th scope="row">Degree</th><td>B.E. CSE, 2024&ndash;2027</td></tr>
+                  <tr><th scope="row">Institution</th><td>Stanley College of Engineering &amp; Technology for Women</td></tr>
+                  <tr><th scope="row">Diploma</th><td>CSE, 2021&ndash;2024, QQGPT</td></tr>
+                  <tr><th scope="row">Internship</th><td>CYFY Pvt. Ltd.</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+      <div class="content-width">
+        <p class="eyebrow">03</p>
+        <h2>Education &amp; Experience</h2>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-when">2021 &ndash; 2024</div>
+            <div class="timeline-body">
+              <h3>Diploma, Computer Science &amp; Engineering</h3>
+              <p class="timeline-org">QQGPT</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-when">2024 &ndash; 2027</div>
+            <div class="timeline-body">
+              <h3>B.E., Computer Science &amp; Engineering</h3>
+              <p class="timeline-org">Stanley College of Engineering &amp; Technology for Women</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-when">Apr &ndash; Jun 2026</div>
+            <div class="timeline-body">
+              <h3>GRC Automation Platform Development Intern</h3>
+              <p class="timeline-org">CYFY Pvt. Ltd.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="content-width">
+        <p class="eyebrow">04</p>
+        <h2>Skills</h2>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <h3 class="skill-group-title">Full-Stack Development</h3>
+            <ul class="skill-tags" aria-label="Full-stack development skills">
+              <li>React</li><li>Node.js</li><li>Express</li><li>MongoDB</li>
+              <li>HTML5 / CSS3</li><li>JavaScript (ES6+)</li><li>Bootstrap</li><li>Git</li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <h3 class="skill-group-title">Security &amp; GRC</h3>
+            <ul class="skill-tags" aria-label="Security and GRC skills">
+              <li>Threat &amp; Risk Analysis (TPRM)</li><li>AES / Cryptography</li>
+              <li>CIA Triad Fundamentals</li><li>CTF Practice (TryHackMe)</li>
+              <li>SOC Alert Triage Concepts</li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <h3 class="skill-group-title">Applied ML &amp; Systems</h3>
+            <ul class="skill-tags" aria-label="Applied ML and systems skills">
+              <li>Python</li><li>FastAPI</li><li>Logistic Regression</li>
+              <li>Random Forest</li><li>Docker Compose</li><li>Compiler Design</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="work" class="section">
+      <div class="content-width">
+        <p class="eyebrow">05</p>
+        <h2>Work</h2>
+
+        <div class="filter-bar d-flex flex-wrap gap-2 mb-4" role="group" aria-label="Filter work by category">
+          <button class="filter-btn active" data-filter="all" type="button">All</button>
+          <button class="filter-btn" data-filter="research" type="button">Research</button>
+          <button class="filter-btn" data-filter="security" type="button">Cybersecurity</button>
+          <button class="filter-btn" data-filter="fullstack" type="button">Full-Stack</button>
+        </div>
+
+        <div class="row g-4" id="projects-grid">
+          <div class="project-card-wrap col-md-6" data-category="research">
+            <article class="project-card h-100">
+              <span class="project-tag">Research</span>
+              <h3 class="card-title">Trust Signal Alignment in SOC Alert Triage: A Behavioural Study</h3>
+              <p class="card-text">Built a synthetic agent to model analyst behaviour under different SOC alert
+                risk displays, as part of an academic major project extending a paper on trust-aware security
+                interfaces. Used UNSW-NB15 to train the ML models.</p>
+            </article>
+          </div>
+
+          <div class="project-card-wrap col-md-6" data-category="security">
+            <article class="project-card h-100">
+              <span class="project-tag">Cybersecurity</span>
+              <h3 class="card-title">Cybersecurity Startup Web Platform</h3>
+              <p class="card-text">Contributed to building a web platform for a cybersecurity-based startup and
+                helped perform manual testing and documentation. Learned about information security and various
+                scenarios of attacks.</p>
+            </article>
+          </div>
+
+          <div class="project-card-wrap col-md-6" data-category="fullstack">
+            <article class="project-card h-100">
+              <span class="project-tag">Full-Stack</span>
+              <h3 class="card-title">Civic Issue Reporting &amp; Resolution System</h3>
+              <p class="card-text">A mini project based on problem statement SIH25031 &mdash; a civic issue
+                reporting and resolution system.</p>
+            </article>
+          </div>
+        </div>
+        <p class="filter-empty is-hidden" id="filter-empty">No work in this category yet.</p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="content-width">
+        <p class="eyebrow">06</p>
+        <h2>Work with me</h2>
+        <div class="row g-4 g-lg-5">
+          <div class="col-lg-5">
+            <ul class="contact-list">
+              <li><span class="meta-label">Social</span><a href="https://linkedin.com/in/syedasobiafatima" target="_blank" rel="noopener">linkedin.com/in/syedasobiafatima</a></li>
+              <li><span class="meta-label">Email</span><a href="mailto:syedasobiafatima13@gmail.com">syedasobiafatima13@gmail.com</a></li>
+             
+          </div>
+          <div class="col-lg-7">
+            <form id="contact-form" novalidate>
+              <div id="form-alert" class="alert is-hidden" role="alert"></div>
+
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" name="name" required minlength="2">
+                <div class="invalid-feedback">Please enter your name (at least 2 characters).</div>
+                <div class="valid-feedback">Looks good.</div>
+              </div>
+
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+                <div class="invalid-feedback">Please enter a valid email address.</div>
+                <div class="valid-feedback">Looks good.</div>
+              </div>
+
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="4" required minlength="10"></textarea>
+                <div class="invalid-feedback">Message should be at least 10 characters.</div>
+                <div class="valid-feedback">Looks good.</div>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-cta">Send message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="content-width">
+        <p>&copy; 2026 Syeda Sobia Fatima. Built with HTML5, CSS3, Bootstrap &amp; JavaScript ES6+.</p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
